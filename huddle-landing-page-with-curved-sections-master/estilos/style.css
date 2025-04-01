@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'open sans';
+    width: 100vw;
+    height: 100vh;
+    
+}
+h1{
+    font-family: poppins;
+    font-weight: 700;
+    padding: 10px;
+}
+p{
+  font-family: 'open sans';
+  font-weight: 500;
+  padding: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 110px;
+    padding: 20px;
+}
+header img{
+    width: 66%;
+}
+header a{
+    text-decoration: none;
+    color:  hsl(322, 100%, 66%);
+    border: 1px solid  hsl(322, 100%, 66%);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+main{
+    text-align: center;
+   
+}
+
+.link-1{
+    height: 30px;
+    margin: 50px;
+}
+.link-1 a{
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 22px;
+    border-bottom: 2px solid  hsl(322, 56%, 49%);
+    padding: 12px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.295);
+    
+}
+.container-1{
+    margin-top: 3cm;
+}
+.container-1 h1{
+    font-size: 30px;
+}
+.container-1 img{
+    width: 300px;   
+}
+.text-1{
+    margin: 3cm 0;
+}
+.text-1 div{
+   text-align: left;
+}
+.text-1 div img{
+    text-align: left;
+    width: 30px;
+}
+.text-1 h2{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 3.4em;
+}
+.text-1 p{
+    padding: 0;   
+    color: gray;
+}
+ #curvembl{
+    margin-top: 3cm;
+    margin-bottom: -4.2cm;
+    width: 100vw;
+ }
+ #curve2mbl{
+    width: 100vw;
+ }
+ #curvembl-footer{
+    width: 100vw;
+    margin-bottom: -5px;
+ }
+.container-2 div{
+    margin-top: 4cm;
+}
+.container-2 > div > img{
+    padding-bottom: 2cm;
+} 
+.topo-section{
+    background-color:hsl(207, 100%, 98%);
+   
+    padding: 60px 10px;
+    width: 100vw;
+    
+}
+.container-2 img{
+    width: 230px;
+}
+aside{
+    margin-top: 2cm;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 15px;
+}
+footer p{
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.top-footer{
+    margin-bottom: 4cm;
+}
+.top-footer h2{
+    text-indent: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.top-footer input[type:text]{
+    width:100%;
+}
+.icons-footer svg{
+    color: ffff;
+    width: 25px;
+}
